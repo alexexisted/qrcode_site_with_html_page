@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('winxp.jpeg');
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0dddd44;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.input-field input[type=text] {
+  padding: 10px;
+  font-size: 16px;
+  width: 100;
+  border: 1px solid #ccc;
+}
+
+.sumbit-btn {
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+
+}
+
+.qr-code {
+  margin-top: 20px;
+}
