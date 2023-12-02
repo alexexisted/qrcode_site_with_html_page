@@ -3,23 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Генератор QR-кода</title>
-  <link rel="stylesheet" href="../static/style.css">
+  <link rel="stylesheet" href=".../static/style.css">
 </head>
 <body>
   <div class="container">
     <h1>Генератор QR-кода</h1>
     <div class="input-field">
-    <form action="/generate_qr" method="POST">
       <input type="text" name="url-input" placeholder="Введите ссылку">
       <button class="sumbit-btn" type="submit"> Генерировать</button>
-    </form>
     </div>
     <div class="qr-code">
-      <img id="qr-code-img" src="" alt="QR-код">
+      <img id="qr-code-img" src="qr_ready.png" alt="QR-код">
+      <h2>URL: {{ url_input }}</h2>
     </div>
   </div>
-  <script>
-
-  </script>
 </body>
 </html>
+
